@@ -5,14 +5,14 @@ nav{
    padding: 10px;
    padding-left: 100px;
    padding-right: 100px;
-   font-size: 25px;
 }
 .color-button {
-   color: white;            
-   border: none;         
+   border: 0.1px solid black;
+   border-radius: 50px;
+   color: white;                    
    cursor: pointer;          
    transition: background-color 0.3s ease; 
-   padding: 10px;
+   padding: 5px;
    text-decoration: none;
 }
 
@@ -65,8 +65,8 @@ p{
    margin-right: 50px;
    margin-top: 20px;
    border: 2px dashed black;
+   
 }
-
 h6{
    font-size: 30px;
    margin-bottom: -20px;
@@ -82,6 +82,11 @@ h6{
    padding: 5px;
    border: none;
    font-family: monospace;
+   color: rgb(0, 0, 0);                     
+   cursor: pointer;          
+   transition: background-color 0.5s ease; 
+   padding: 10px;
+   text-decoration: none;
 }
 
 h2{
@@ -227,4 +232,26 @@ footer h3{
 .color-button-footer:hover {
    background-color: #ffffff30; 
    margin-top: -1px;
+}
+
+table a{
+   text-decoration: none;
+   color: black;
+}
+
+.color-button-table{
+   color: rgb(0, 0, 0);                     
+   cursor: pointer;          
+   transition: background-color 0.5s ease; 
+   padding: 10px;
+   text-decoration: none;
+}
+
+.color-button-table:hover {
+   background-color: #00000025; 
+   margin-top: -1px;
+}
+
+.main2p:hover {
+   background-color: #00000018; 
 }
