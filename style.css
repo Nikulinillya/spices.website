@@ -1,0 +1,230 @@
+nav{
+   font-size: 20px;
+   text-align: center;
+   background-color: #000000a2;
+   padding: 10px;
+   padding-left: 100px;
+   padding-right: 100px;
+   font-size: 25px;
+}
+.color-button {
+   color: white;            
+   border: none;         
+   cursor: pointer;          
+   transition: background-color 0.3s ease; 
+   padding: 10px;
+   text-decoration: none;
+}
+
+.color-button:hover {
+   background-color: #ffffff37; 
+}
+
+main h1{
+   text-align: center;
+   font-size: 50px;
+   border-bottom: 2px solid #e51717;
+   padding-bottom: 9px;
+   border-top: 2px solid #e51717;
+   padding-top: 2px;
+   font-family: cursive;
+}
+
+main h1 img {
+   padding: 1px;
+   border: 2px dashed black;
+   background-color: black;
+}
+
+main h4{
+   text-align: center;
+   font-size: 20px;
+}
+
+p{
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 15px;
+   padding: 7px;
+   font-size: 30px;
+   /* color: white; */
+}
+
+.info{
+   text-align: left;
+   font-size: 35px;
+   border: none;
+   background-color: #ffffff;
+   color: rgb(0, 0, 0);
+   border: 3px solid rgb(0, 0, 0);
+   text-align: center;
+   font-family: cursive;
+}
+
+.pclassinfoimg{
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 20px;
+   border: 2px dashed black;
+}
+
+h6{
+   font-size: 30px;
+   margin-bottom: -20px;
+   margin-top: -15px;
+   /*border: 2px dotted #e51717*/;
+   padding-left: 20px;
+   margin-right: 1040px;
+   font-family: cursive;
+}
+
+.main2p{
+   font-size: 28px;
+   padding: 5px;
+   border: none;
+   font-family: monospace;
+}
+
+h2{
+   border-bottom: 2px solid #e51717;
+   font-family: cursive;
+}
+
+h6 img{
+   margin-bottom: -5px;
+   margin-left: -5px;
+   margin-right: -5px;
+}
+
+.mainh1{
+   border: 2px solid black;
+   border-radius: 20px;
+   background-image: url(https://odessa-life.od.ua/wp-content/uploads/2024/12/specii-i-pryanosti-01.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   font-weight: bold;
+   color: white; /* Колір тексту */
+   -webkit-text-stroke: 2px black; /* Товщина і колір обводки */
+   text-align: center;
+
+}
+
+tr{
+   border: 1px solid black;
+}
+
+td{
+   border: 1px solid black;
+   font-size: 20px;
+   background-color: hsl(30, 83%, 98%);
+   padding: 10px;
+}
+
+table{
+   border-collapse: collapse;
+}
+
+.tr1{
+   font-size: 30px;
+   color: white;
+   font-family: monospace;
+}
+
+.td1{
+   background-color: #e51717;
+   font-weight: bold;
+   color: white; /* Колір тексту */
+   -webkit-text-stroke: 0.5px black; /* Товщина і колір обводки */
+   text-align: center;
+
+}
+
+.td2{
+   background-color: #ef3a3a;
+   font-weight: bold;
+   color: white; /* Колір тексту */
+   -webkit-text-stroke: 0.5px black; /* Товщина і колір обводки */
+   text-align: center;
+
+}
+
+:root{
+
+   scroll-behavior: smooth;
+}
+
+.outlined-text {
+   font-weight: bold;
+   color: white; /* Колір тексту */
+   -webkit-text-stroke: 2px black; /* Товщина і колір обводки */
+   text-align: center;
+
+}
+
+.h1imgmain{
+      border: 2px solid black;
+      border-radius: 20px;
+      background-image: url(https://egastronom.ua/content/images/7/1440x432e90nn0/72943939251293.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-weight: bold;
+      color: white; /* Колір тексту */
+      font-size: 30px;
+      -webkit-text-stroke: 1px black; /* Товщина і колір обводки */
+      text-align: center;
+      font-family: cursive;
+}
+
+footer{
+   background-image: url(https://uainfo.org/static/ckef/img/3_1167.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   text-align: right;
+   font-size: 30px;
+   border: 2px solid black;
+   color: white;
+   margin-left: -5px;
+   margin-right: -5px;
+}
+
+footer p{
+   font-family: monospace;
+   margin-right: 30px;
+   margin-left: 850px;
+   font-weight: bold;
+   color: white; /* Колір тексту */
+   -webkit-text-stroke: 1px black; /* Товщина і колір обводки */
+   text-align: center;
+   font-size: 20px;
+}
+
+footer a{
+   text-decoration: none;
+   color: white;
+   font-family: cursive;
+}
+
+footer h3{
+   margin-right: 30px;
+   font-weight: bold;
+   color: white; /* Колір тексту */
+   -webkit-text-stroke: 1px black; /* Товщина і колір обводки */
+   font-family: cursive;
+   font-size: 30px;
+}
+
+.color-button-footer{
+   color: white;            
+   border: none;         
+   cursor: pointer;          
+   transition: background-color 0.5s ease; 
+   padding: 10px;
+   text-decoration: none;
+}
+
+.color-button-footer:hover {
+   background-color: #ffffff30; 
+   margin-top: -1px;
+}
